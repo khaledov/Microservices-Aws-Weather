@@ -13,7 +13,7 @@ var tempServiceConfig = servicesConfig.GetSection("Temperature");
 var tempHost = tempServiceConfig["Host"];
 var tempPort = tempServiceConfig["Port"];
 
-var preciptServiceConfig = servicesConfig.GetSection("Percipitation");
+var preciptServiceConfig = servicesConfig.GetSection("Precipitation");
 var preciptHost = preciptServiceConfig["Host"];
 var preciptPort = preciptServiceConfig["Port"];
 
