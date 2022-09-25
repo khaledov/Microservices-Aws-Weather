@@ -8,6 +8,8 @@ namespace CloudWeather.Temprature.DataAccess
         public TempDbContext(DbContextOptions option):
             base(option) { }
 
+        public DbSet<Temperature> Temperature { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);

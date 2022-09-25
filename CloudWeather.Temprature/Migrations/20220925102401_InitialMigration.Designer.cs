@@ -12,7 +12,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace CloudWeather.Temprature.Migrations
 {
     [DbContext(typeof(TempDbContext))]
-    [Migration("20220925095453_InitialMigration")]
+    [Migration("20220925102401_InitialMigration")]
     partial class InitialMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
