@@ -1,7 +1,11 @@
 ﻿namespace CloudWeather.Report.DataAccess
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public class WeatherReport
     {
+        
         public Guid Id { get; set; }
         public DateTime CreatedOn { get; set; }
         public decimal AverageHigh { get; set; }
